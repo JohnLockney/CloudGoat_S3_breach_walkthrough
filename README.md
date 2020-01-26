@@ -73,6 +73,8 @@ Exporting as an environment variable could work, the variable name would need to
 The cheat-sheet for the Cloud Goat server side request forgery scenario “ec2_ssrf” shows how to configure the TOKEN in the user profile:  https://github.com/RhinoSecurityLabs/cloudgoat/blob/master/scenarios/ec2_ssrf/cheat_sheet_solus.md
 
 
+![alt text](https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/images/image1.jpg)
+
 <HR>
   
 After editing for our current test: 
@@ -110,7 +112,7 @@ download: s3://cg-cardholder-data-bucket-cgidatyedvvzzy/goat.png to cardholder-d
 
 <HR>
   
-#7) Reveiw local copy 
+7) Reveiw local copy 
 
 ```
 % ls ./cardholder-data/
