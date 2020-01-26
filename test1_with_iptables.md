@@ -233,4 +233,4 @@ root@HOSTNAME:~# curl -s http://100.25.77.36/latest/meta-data/iam/security-crede
 root@HOSTNAME:~#
 ```
 
-Note: This prevents remote access through proxy service. (Unless the proxy service runs as root?)
+Note: This prevents remote access through proxy service (unless the proxy service runs as root).
