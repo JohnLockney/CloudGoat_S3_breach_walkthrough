@@ -199,17 +199,17 @@ ubuntu@ip-10-10-10-89:~$
 
 ## Additional Notes: 
 
-
-Can we monitor logs to determine when someone has accessed the metadata service from outside the instance?
-
-* Queries to metadata service (link local address) are not captured in flow logs:
-* https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html 
-     
-* With the announcement of IDMSV2 “CloudTrail” is also being updated to record the new ec2:RoleDelivery parameters. 
-* https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/
-  
 Vulnerability scanning:   
 
-* Scanning our vulnerable instance wtih AWS Inspector did not result in any related medium or high severity findings. 
-(Security Groups are configured so that the vulnerable instance is actually only visible from a single IP.)
-  
+* Scanning our vulnerable instance wtih AWS Inspector did not result in any related medium or high severity findings. (Security Groups in this scenario are configured so that the vulnerable instance is only visible from a single IP.)
+ 
+
+Can we monitor logs to determine when someone has accessed the metadata service from outside the instance?
+   
+* With the announcement of IDMSV2, “CloudTrail” is being updated to record the new ec2:RoleDelivery parameters. 
+  https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/
+
+* Queries to metadata service (link local address) are not captured in flow logs:
+  https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html 
+
+ 
