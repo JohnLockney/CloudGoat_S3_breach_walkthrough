@@ -5,9 +5,9 @@
 
 <HR>
 This walkthrouh includes steps for setup, commands in the cheatsheet which needed slight modification to work.  
-After going through the scenario as written, I wanted to see whether we could:
+After going through the scenario as written, I wanted to see:
   
-  * Prevent access with iptables firewall
+  * What happens if we prevent access to the metadata servie using iptables firewall?
     https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/test1_with_iptables.md
 
   * How the scenario would be impacted by implementation of the Instance Metadata Service Version 2 (IMDSV2) 
