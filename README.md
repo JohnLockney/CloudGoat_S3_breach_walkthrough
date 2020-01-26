@@ -5,8 +5,15 @@
 
 <HR>
 This walkthrouh includes steps for setup, commands in the cheatsheet which needed slight modification to work.  
-After going through the scenario as written, I wanted to see whether we could prevent access with iptables firewall, 
-and how the scenario would be impacted by implementation of the Instance Metadata Service Version 2 (IMDSV2) announced at re:Invent in December, 2019. 
+After going through the scenario as written, I wanted to see whether we could:
+  
+  * Prevent access with iptables firewall
+    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/test1_with_iptables.md
+
+  * How the scenario would be impacted by implementation of the Instance Metadata Service Version 2 (IMDSV2) 
+    announced at re:Invent in December, 2019
+    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/Test1_with-IMDSv2.md
+ 
 
 <HR>
   
