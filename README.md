@@ -53,7 +53,7 @@ cg-banking-WAF-Role-cgidatyedvvzzy
   "Expiration" : "2020-01-13T01:42:16Z"
 ```
 
-#3) aws configure --profile erratic
+3) aws configure --profile erratic
 
 ```
 % aws configure --profile erratic
@@ -64,7 +64,7 @@ Default output format [None]:
 %
 ```
 
-#4) aws_session_token = <session-token>
+4) aws_session_token = <session-token>
 
 Note: the steps required are slightly different than described in the cheat-sheet for this scenario.
 
