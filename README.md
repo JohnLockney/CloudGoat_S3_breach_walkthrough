@@ -24,7 +24,7 @@ https://github.com/RhinoSecurityLabs/cloudgoat/blob/master/scenarios/cloud_breac
 NOTE: Additional setup needed: ‘cloudgoat’ IAM user and profile, described in the CloudGoat 2 release notes 
 https://rhinosecuritylabs.com/aws/introducing-cloudgoat-2/
 
-
+![alt text](https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/images/image0.jpg)
 
 
 
@@ -128,7 +128,7 @@ total 456
 % firefox ./goat.png
 ```
 
-
+![alt text](https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/images/image2.jpg)
 
 
 
