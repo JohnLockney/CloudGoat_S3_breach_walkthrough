@@ -1,4 +1,4 @@
-## Test 1: Restrict access to metadata service thruogh iptables
+## Test 1: Restrict access to metadata service using iptables
 
 <HR> 
 
