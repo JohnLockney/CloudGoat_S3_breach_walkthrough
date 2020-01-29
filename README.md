@@ -4,7 +4,7 @@
 ## Walkthrough of the Rhino Labs S3 data breach scenario
 
 <HR>
-This walkthrouh includes steps for setup, commands in the cheatsheet which needed slight modification to work.  
+This walkthrouh includes steps for setup, commands in the cheatsheet which needed slight modification to work.
 After going through the scenario as written, I wanted to see:
   
   * What happens if we prevent access to the metadata servie using iptables firewall?
@@ -12,7 +12,7 @@ After going through the scenario as written, I wanted to see:
 
   * How the scenario would be impacted by implementation of the Instance Metadata Service Version 2 (IMDSV2) 
     announced at re:Invent in December, 2019
-    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/Test1_with-IMDSv2.md
+    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/test2_with-IMDSv2.md
  
 
 <HR>
@@ -138,7 +138,17 @@ total 456
 ![alt text](https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/images/image2.jpg)
 
 
+<HR> 
+## Additional Tests: 
+  
+  
+  * What happens if we prevent access to the metadata servie using iptables firewall?
+    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/test1_with_iptables.md
 
+  * How the scenario would be impacted by implementation of the Instance Metadata Service Version 2 (IMDSV2) 
+    announced at re:Invent in December, 2019
+    https://github.com/JohnLockney/CloudGoat_S3_breach_walkthrough/blob/master/test2_with-IMDSv2.md
+ 
 
 
 
